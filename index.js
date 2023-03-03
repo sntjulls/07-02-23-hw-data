@@ -12,7 +12,7 @@ for (const button of buttons) {
       },
     }) => {
       for (const inactive of buttons) {
-        if (inactive.hasAttribute("data-one")) {
+        if (inactive.hasAttribute("main")) {
           inactive.style.backgroundColor = "#fff";
           inactive.style.color = "#000000";
         }
